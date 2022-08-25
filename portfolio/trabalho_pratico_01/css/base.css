@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 0, 0, 0.26);
+    scroll-padding-top: 150px;
+}
+.bg_nav{
+    background-color: rgba(0, 0, 0, 0.11);
+}
+header{
+    background-image: url(/img/header_bg.jpg);
+    font-weight: bolder;
+}
+.box_contato{
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    height: 100%;
+}
+footer{
+    background-color: #cdcfce;
+    font-style: inherit;
+    text-decoration: none;
+    height: 160px;
+    padding: 50px; 
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+        <title>Formulário</title>
+    </head>
+    <body>
+        <div id="container_geral">
+            <header>
+                <table class="table table-borderless;" style="width: 824px;">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="padding: 4px; padding-left: 7px;"><img src="img/logo.png"></th>
+                            <th scope="col" style="padding-left: 10px;"><h2>FIX TOUCH 1</h2></th>
+                            <th style="padding-left: 360px; text-align: right;">(81)98708-9334 - (81)98708-9334<br>
+                                pamelacarvalho@fixtouch.com.br<br>
+                                Responsável: MARIA EDUARDA<br>
+                                LOPES FLORENTINO
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </header>
+    
+            <form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4" style="background-color: #bbbbbba2; text-align: left; font-size: large; width: 820px;">
+                                <strong>ORDEM DE SERVIÇO Nº</strong>
+                                <input type="text" name="nr_ordem_servico" id="nr_ordem_servico" style="background-color: #bbbbbb00; font-size: 20px;" size="1px">
+                                <input type="text" name="entrada" id="entrada" style="background-color: #bbbbbb00; font-size: 20px; text-align: right; margin-left: 250px;" size="6px">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 110px;">
+                                <label><strong>Senha:</strong></label>
+                            </td>
+                            <td style="padding-right: 60px; width: 110px;">
+                                <input type="text" name="senha" id="senha">
+                            </td>
+                            <td style="width: 110px;">
+                                <label><strong>Cor da Carcaça:</strong></label>
+                            </td>
+                            <td style="padding-right: 60px; width: 110px;">
+                                <input type="text" name="cor_carcaca" id="cor_carcaca">
+                            </td>
+                        </tr>                
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4" style="background-color: #bbbbbba2; width: 820px;">DADOS DO CLIENTE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label><strong>Cliente:</strong></label>
+                            </td>
+                            <td style="padding-right: 60px;">
+                                <input type="text" name="cliente" id="cliente">
+                            </td>
+                            <td>
+                                <label><strong>CNPJ/CPF:</strong></label>
+                            </td>
+                            <td style="padding-right: 60px;">
+                                <input type="text" name="cnpj/cpf" id="cnpj/cpf">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><strong>Endereço:</strong></label>
+                            </td>
+                            <td>
+                                <input type="text" name="endereco" id="endereco">
+                            </td>
+                            <td>
+                                <label><strong>CEP:</strong></label>
+                            </td>
+                            <td>
+                                <input type="text" name="cep" id="cep">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><strong>Cidade:</strong></label>
+                            </td>
+                            <td>
+                                <input type="text" name="cidade" id="cidade">                    
+                            </td>
+                            <td>
+                                <label><strong>Estado:</strong></label>
+                            </td>
+                            <td>
+                                <input type="text" name="estado" id="estado">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>                    
+                                <label><strong>Telefone:</strong></label>
+                            </td>
+                            <td>
+                                <input type="text" name="telefone" id="telefone">
+                            </td>                
+                            <td>
+                                <label><strong>E-mail:</strong></label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                    </tbody>                                                                                            
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4" style="background-color: #bbbbbba2; width: 820px;">EQUIPAMENTO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label><strong>Nome do equipamento</strong></label><br>
+                                <input type="text" name="nome_equipamento" id="nome_equipamento" >
+                            </td>
+                            <td>
+                                <label><strong>Marca</strong></label><br>
+                                <input type="text" name="marca" id="marca" size="19">
+                            </td>
+                            <td>
+                                <label><strong>Modelo</strong></label><br>
+                                <input type="text" name="modelo" id="modelo" size="15">
+                            </td>
+                            <td>
+                                <label><strong>Série</strong></label><br>
+                                <input type="text" name="serie" id="serie" size="15">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="padding-bottom: 25px; padding-top: 7px;">
+                                <label><strong>Condições</strong></label><br>
+                                <input type="text" name="condicoes" id="condicoes" style="width: 100%;">                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="padding-bottom: 25px; padding-top: 7px;">
+                                <label><strong>Defeitos</strong></label><br>
+                                <input type="text" name="defeitos" id="defeitos">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="padding-bottom: 25px; padding-top: 7px;">                    
+                                <label><strong>Solução</strong></label><br>
+                                <input type="text" name="solucao" id="solucao">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="6" style="background-color: #bbbbbba2; width: 820px;">SERVIÇOS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label><strong>ITEM</strong></label>
+                            </td>
+                            <td>
+                                <label><strong>NOME</strong></label>
+                            </td>
+                            <td style="text-align: right;">
+                                <label><strong>QTD.</strong></label>
+                            </td>
+                            <td style="text-align: right;">
+                                <label><strong>VR. UNIT.</strong></label>
+                            </td>
+                            <td style="text-align: right;">
+                                <label><strong>DESC.</strong></label>
+                            </td>
+                            <td style="text-align: right;">
+                                <label><strong>SUBTOTAL</strong></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="item" id="item" size="6">
+                            </td>
+                            <td>
+                                <input type="text" name="nome" id="nome" size="28">
+                            </td>
+                            <td>
+                                <input type="text" name="qtd" id="qtd" size="6" style="text-align: right;">
+                            </td>
+                            <td>
+                                <input type="text" name="vr_unit" id="vr_unit" size="6" style="text-align: right;">
+                            </td>
+                            <td>
+                                <input type="text" name="desc" id="desc" size="6" style="text-align: right;">
+                            </td>
+                            <td>
+                                <input type="text" name="subtotal" id="subtotal" size="6" style="text-align: right;">                    
+                            </td>
+                        </tr>
+                        <tr style="background-color: #bbbbbba2; width: 990px;">
+                            <td colspan="2">                    
+                                <label><strong>TOTAL</strong></label>
+                            </td>
+                            <td>
+                                <input type="text" name="qtd" id="qtd" size="6" style="text-align: right; background-color: #bbbbbb00;">
+                            </td>
+                            <td>
+                                <input type="text" name="vr_unit" id="vr_unit" size="6" style="text-align: right; background-color: #bbbbbb00;">
+                            </td>
+                            <td>
+                                <input type="text" name="desc" id="desc" size="6" style="text-align: right; background-color: #bbbbbb00;">
+                            </td>
+                            <td>
+                                <input type="text" name="subtotal" id="subtotal" size="6" style="text-align: right; background-color: #bbbbbb00;">                    
+                            </td>
+                        </tr>
+                    </tbody>                                                                                            
+                </table>
+                <table>
+                    <thead>
+                        <tr style="background-color: #bbbbbba2;">
+                            <th style="padding-left: 700px;">SERVIÇOS:
+                                <input type="text" name="servicos" id="servicos" size="3" style="text-align: right; background-color: #bbbbbb00;">
+                            </th>
+                        </tr>
+                        <tr style="background-color: #bbbbbba2;">
+                            <th style="padding-left: 720px;">TOTAL:
+                                <input type="text" name="total" id="total" size="3" style="text-align: right; background-color: #bbbbbb00;">
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+    
+                <table style="border: 1px solid #000000; width: 825px;">
+                    <tbody>
+                        <tr>
+                            <td style="border: inherit; padding-right: 100px;">
+                                Entrada:
+                                <input type="text" name="entrada" id="entrada" style="background-color: #bbbbbb00;" placeholder="__/__/____ - __:__" size="16px">
+                            </td>
+                            <td style="border: inherit; padding-right: 100px;">
+                                Saída:
+                                <input type="text" name="saida" id="saida" style="background-color: #bbbbbb00;" placeholder="__/__/____ - __:__" size="13px">
+        
+                            </td>
+                            <td style="border: inherit;">
+                                <strong>
+                                    Nº 
+                                    <input type="text" name="nr_ordem_servico" id="nr_ordem_servico" size="10">
+                                </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: inherit;">
+                                <p>
+                                    <input type="text" name="assinatura_cliente" id="assinatura_cliente" style="text-align: center;">
+                                    _____________________________________________<br>
+                                        <a style="padding-left: 60px;">Assinatura do cliente</a>
+                                </p>
+                            </td>
+                    
+                            <td style="border: inherit;">
+                                <p>
+                                    <input type="text" name="assinatura_tecnico" id="assinatura_tecnico" style="text-align: center;">
+                                    _____________________________________________<br>
+                                    <a style="padding-left: 60px;">Assinatura do técnico</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <h6 style="text-align: right; margin-right:35px; padding-bottom: 14px; margin-top: 296px;">Ordem de serviço emitida no GestãoClick – <a href="www.gestaoclick.com.br" style="text-decoration: inherit; color: inherit;">www.gestaoclick.com.br</a></h6>
+        </div>    
+    </body>
+</html>

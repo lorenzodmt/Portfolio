@@ -1,0 +1,37 @@
+body{
+    background-image:  url(../imagens/despenhadeiro.png);
+    color: #FFFFFF;
+    text-align: center;
+}
+#container_geral{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 5px 5px 15px -8px #000000;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgb(0, 0, 102);
+}
+table{
+    border: 1px solid #00000000;
+    box-shadow: 5px 5px 15px -8px #000000;
+    text-align: center;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid #696969;
+}
+footer{
+    clear: both;
+    height: 35px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+/*USAR BREADCRUMB; TESTAR ALERTA; DROPDOWN TALVEZ*/
+
+.scroll{
+    overflow-y: scroll;
+    height: 750px;
+}

@@ -1,0 +1,36 @@
+nav{
+    float: left;
+    width: 280px;
+    background-color: #000000b7;
+    padding-bottom: 15px;
+}
+nav img{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 38px;
+    width: 200px;
+}
+nav a:hover{
+    background-color: #1b1a1ab7;
+    border-radius: 10px;
+}
+nav .menu_ativado{
+    background-color: #1b1a1ab7;
+    border-radius: 10px;
+    width: 200px;
+}
+h2 a{
+    text-decoration: none;
+    color: inherit;
+}
